@@ -17,7 +17,7 @@ Is it necessary the following libraries to execute the script:
 - The message needs to contain only ASCII characters
 - The message is not encrypted, it is inserted on the pixels in plain text.
 
-To execute it it is just necessary this steps:
+To execute it is just necessary this steps:
 
 <b><h3>To see the options:</h3></b>
 
