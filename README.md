@@ -5,7 +5,7 @@ This project was done by a classmate Pau Peña and me, Brian Martinez Alvarez.
 It is a Python script that permits to encode or decode a message into PNG images. Doesn't matter if it uses RGB or RGBA to set the pixels. It works in both. 
 It uses the LSB-Algorythm.
 
-Is it necessary the following libraries to execute the script:
+It is necessary the following libraries to execute the script:
 
 - Image from PIL
 - sys
