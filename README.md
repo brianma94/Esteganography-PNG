@@ -31,7 +31,7 @@ It will create the 'modified_image.png' in the same directory and it will be ide
 
 <b><h3>To  decode:</h3></b>
 
-    python steganography.py --decode modified_image.png"
+    python steganography.py --decode modified_image.png
 
 Where modified_image.png is the image where you want to decode the hidden message. If the image does't have any message, it won't prompt anything. Otherwise, it will prompt the hidden message in the terminal.
 
