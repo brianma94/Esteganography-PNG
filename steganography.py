@@ -84,7 +84,6 @@ def encode():
 					elif components == 3:
 						components = 1
 				else:
-					print str(components)
 					if components == 0:
 						resultado = resultado + "(" + str(valor) + ", "
 						components = components + 1
