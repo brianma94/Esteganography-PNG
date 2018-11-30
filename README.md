@@ -2,7 +2,7 @@
 Steganography script in images PNG
 
 This project was done by a classmate Pau Peña and me, Brian Martinez Alvarez.
-It is a Python script that permits to encode or decode a message into PNG images. Doesn't matter if it uses RGB or RGBA to set the pixels. It works in both. 
+It is a Python script that permits to encode or decode a message into/from PNG images. Doesn't matter if it uses RGB or RGBA to set the pixels. It works in both. 
 It uses the LSB-Algorythm.
 
 It is necessary the following libraries to execute the script:
@@ -12,10 +12,10 @@ It is necessary the following libraries to execute the script:
 - os
 
 <b><h2>IMPORTANT!!!</h2></b>
-- The message needs to contain only ASCII characters
-- The message is not encrypted, it is inserted on the pixels in plain text.
+- The message needs to contain only ASCII characters.
+- The message is not encrypted, it is inserted into the pixels in plain text.
 
-To execute it is just necessary this steps:
+To execute it, it is just necessary these steps:
 
 <b><h3>To see the options:</h3></b>
 
@@ -33,5 +33,5 @@ It will create the 'modified_image.png' in the same directory and it will be ide
 
     python steganography.py --decode modified_image.png
 
-Where modified_image.png is the image where you want to decode the hidden message. If the image does't have any message, it won't prompt anything. Otherwise, it will prompt the hidden message in the terminal.
+Where modified_image.png is the image you want to decode the hidden message. If the image doesn't have any message, it won't prompt anything. Otherwise, it will prompt the hidden message in the console.
 
