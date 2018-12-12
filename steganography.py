@@ -3,7 +3,7 @@ import sys
 import os
 
 #Version 1.0
-# Authors: Pau Pena & Brian Martinez
+# Author: Brian Martinez
 
 def encode():
 	nombre = str(sys.argv[4])
